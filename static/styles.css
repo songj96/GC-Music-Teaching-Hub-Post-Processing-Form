@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+}
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: var(--primary-color);
+    font-size: 26px;
+}
+h3 {
+    color: #000000;
+    font-size: 26px;
+    margin-top: 10px;
+}
+.form-control {
+    border-color: var(--primary-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-group .checkbox-container {
+    display: flex;
+    align-items: center;
+}
+.form-group .checkbox-container input[type='checkbox'] {
+    order: 2;
+    margin-left: 10px;
+}
+.form-group .checkbox-container label {
+    order: 1;
+}
+.navbar-nav .nav-link {
+    font-size: 20px; 
+}
+.distinguishable-dropdown {
+    background-color: #E8E8E8; 
+    border: 1px solid #007BFF; 
+    border-radius: 5px; 
+    color: #333; 
+}
+.distinguishable-dropdown:hover {
+    background-color: #D8D8D8; 
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; 
+}
+.file-field {
+    margin-bottom: 10px;
+}
+.file-field label {
+    display: block;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}

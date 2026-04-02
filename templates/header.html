@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/review' %}active{% endif %}" href="/review">Submission Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/ocr' %}active{% endif %}" href="/ocr">Document Processing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/upload' %}active{% endif %}" href="/upload">Upload to WordPress</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/form' %}active{% endif %}" href="/form">Post Form</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/send-email' %}active{% endif %}" href="/send-email">Email Form</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if activePage == '/guide' %}active{% endif %}" href="/guide">Guide</a>
+            </li>
+        </ul>
+    </div>
+</nav>

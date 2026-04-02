@@ -1,0 +1,4 @@
+SECRET_KEY = ''
+USERNAME = ''
+PASSWORD = ''
+APIKEY = ''
